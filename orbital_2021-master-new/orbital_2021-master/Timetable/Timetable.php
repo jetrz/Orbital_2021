@@ -254,6 +254,7 @@
       </form>
 
       <?php
+        error_reporting(E_ALL ^ E_WARNING); //Suppress all warnings. This is a (shitty) fix for warnings appearing when searching for a Sem 2 mod, because our app only queries for sem 1 mods
         if (isset($_GET["error"])) {
           if ($_GET["error"] == "clashingtime") {
             echo "<p class = 'error-message fontsset1'>There is already a class at that timing!</p>";
