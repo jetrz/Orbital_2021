@@ -1,0 +1,209 @@
+.fontsset1{
+    /* font-family: Georgia, Verdana, Helvetica */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+}
+
+
+/* End of Links */
+
+.nodeco
+{
+    text-decoration: none;
+}
+
+.listfont
+{
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1e1e1e;
+}
+
+.nostyle
+{
+    list-style: none;
+}
+
+.inlineblock
+{
+    display: inline-block;
+}
+
+.leftfloat
+{
+    float: left;
+}
+
+.centered
+{
+    line-height: 90px;
+}
+
+.full
+{
+    margin: 0;
+    padding: 0;
+}
+
+.grey
+{
+    background-color: #eee;
+}
+
+.static
+{
+    position: static;
+}
+
+.blockdisplay
+{
+    display:block;
+}
+
+/* Specific to header */
+
+.header
+{
+    position: static;
+    width:100%;
+    height: 115px;
+    line-height: 20px;
+    background-color: #0000009c;
+    border: 0px solid #EF7C00;
+    box-sizing: border-box;
+}
+
+.header-left {
+    margin: auto;
+    position: absolute;
+    left: 0%;
+    display: flex;
+}
+
+.header-right {
+    margin: auto;
+    position: absolute;
+    right: 1%;
+}
+
+.header-right a{
+    padding: 45px 27px;
+    font-size: 17px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700;
+}
+
+.header-right a:visited{
+    color: #ffffff;
+}
+
+.header-right a:hover{
+    color: #EF7C00;
+    text-decoration: none;
+}
+
+.mylogofont
+{
+    font-size:56px;
+    color: #003D7C;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800;
+    letter-spacing: -3px;
+}
+
+.nuslogofont
+{
+    font-size:56px;
+    color: #EF7C00;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: -4px;
+}
+
+.navbar {
+    display: none !important;
+}
+
+/* ---------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .bg_color {
+        padding: 0px 0px 0px 0px;
+    }
+    .bg_main {
+        background: #ffffffbf;
+        padding: 28px !important;
+    }
+    .header-right a {
+        padding: 43px 11px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+        padding: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    .header-left {
+        margin: auto;
+        position: absolute;
+        left: 0%;
+        right: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header .leftfloat {
+        float: none;
+    }
+    .navbar {
+        display: block !important;
+        text-align: right !important;
+    }
+    .navbar-nav {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif !important;
+        font-weight: 800;
+        font-size: 15px;
+        color: #003d7c;
+        padding-top: 40px;
+    }
+    .form {
+        width: 94%;
+    }
+    .dashboard ul {
+        padding: 0;
+    }
+    .dashboard li {
+        left: 0;
+    }
+    .class-reminder {
+        margin-left: 0;
+    }
+    .right-header h1 {
+        margin: 10px 0 10px 0px;
+    }
+    .selectMax {
+        margin-left: 0;
+    }
+    .header-right {
+        display: none;
+    }
+    .mylogofont {
+        font-size: 30px;
+    }
+    .nuslogofont {
+        font-size: 30px;
+    }
+
+
+}

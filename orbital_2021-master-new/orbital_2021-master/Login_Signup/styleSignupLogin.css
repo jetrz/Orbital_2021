@@ -1,0 +1,204 @@
+
+
+.fontsset1{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+}
+
+
+/* End of Links */
+
+.block
+{
+    display:block
+}
+
+.nodeco
+{
+    text-decoration: none;
+}
+
+.listfont
+{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #1e1e1e;
+}
+
+.nostyle
+{
+    list-style: none;
+}
+
+.inlineblock
+{
+    display: inline-block;
+}
+
+.leftfloat
+{
+    float: left;
+}
+
+.centered
+{
+    line-height: 90px;
+}
+
+.full
+{
+    margin: 0;
+    padding: 0;
+}
+
+.grey
+{
+    background-color: #eee;
+}
+
+.blockdisplay
+{
+    display:block;
+}
+
+.body {
+    height: 100%;
+}
+
+/* Specific to Signup */
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.form{
+    height: auto;
+    text-align: center;
+    padding: 50px 55px;
+    margin: 50px 250px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: none;
+    width: 500px;
+    display: block;
+    margin: 58px auto;
+}
+
+.form input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: 45px;
+}
+
+.form p
+{
+    margin: 20px 0;
+    align-items: center;
+}
+
+.member
+{
+    display: block;
+}
+
+.form a
+{
+    color: blue;
+}
+
+.form a:hover
+{
+    text-decoration: underline;
+}
+
+.form a:visited
+{
+    color: purple;
+}
+
+.form button{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+    /* background: none; */
+    /* padding: 8px 18px; */
+    /* box-shadow: 2px 1px slategrey; */
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.form button:hover
+{
+    background: black;
+    color: white;
+}
+
+.error-message{
+    display: inline-block;
+    border: 1px solid;
+    border-color: #D8000C;
+    text-decoration-color: #D8000C;
+    background-color: #FFD2D2;
+    font-size: 16px;
+    padding: 1vh;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    left: -10vw;
+    font-size: 16px;
+}
+
+/* new styles */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+
+.main_h_img img {
+    width: 100px;
+}
+
+.bg_img {
+    background-image: url('./img/bg_sys.jpg');
+    height: 100vh;
+    background-size: cover !important;
+    background-position: bottom center;
+}
+
+button.btn_cu {
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    margin-top: 10px;
+    background: #003d7c;
+}
+h1.fontsset1 {
+    font-size: 50px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+p.member {
+    font-size: 15px;
+    font-weight: 600;
+}
+p.member a{
+    color: #003d7c !important;
+}
