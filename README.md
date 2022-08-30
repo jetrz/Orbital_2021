@@ -1,4 +1,4 @@
-# Orbital 2021
+# Orbital 2021: myNUS
 CP2106 Independent Software Development Project <br />
 By Joshua Teo and Adele Loh
 
