@@ -1,5 +1,5 @@
-# Orbital 2021: myNUS
-CP2106 Independent Software Development Project <br />
+# myNUS
+CP2106 Independent Software Development Project (Orbita 2021) <br />
 By Joshua Teo and Adele Loh
 
 Please click on the [folder](/orbital_2021-master-new/orbital_2021-master) if you would like to run our web application locally, and/or for a more detailed README.
