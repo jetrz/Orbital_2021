@@ -2,10 +2,12 @@
 CP2106 Independent Software Development Project (Orbital 2021) <br />
 By Joshua Teo and Adele Loh
 
-Please click on the [folder](/orbital_2021-master-new/orbital_2021-master) if you would like to run our web application locally, and/or for a more detailed README.
+## Our application combines applications that NUS students use on a daily basis, including a timetable planner, shuttle bus tracker and to-do list onto one convenient platform. 
+### Made using PHP.<br />
+
+Please click [here](/orbital_2021-master-new/orbital_2021-master) for more instructions if you would like to run our web application locally, and/or for a more detailed README.
 Alternatively, you can visit our application at: https://my-nus.herokuapp.com/Main/Main.php (Our application is mobile friendly!)
 
-## Our application combines applications that NUS students use on a daily basis, including a timetable planner, shuttle bus tracker and to-do list onto one convenient platform. <br />
 > ### Landing/Home Page
   ![image](https://user-images.githubusercontent.com/77264646/148555839-70662580-a21b-4976-8eaf-7eece1195867.png)
 
