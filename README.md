@@ -6,7 +6,6 @@ By Joshua Teo and Adele Loh
 ### Made using PHP.<br />
 
 Please click [here](/orbital_2021-master-new/orbital_2021-master) for more instructions if you would like to run our web application locally, and/or for a more detailed README.
-Alternatively, you can visit our application at: https://my-nus.herokuapp.com/Main/Main.php (Our application is mobile friendly!)
 
 > ### Landing/Home Page
   ![image](https://user-images.githubusercontent.com/77264646/148555839-70662580-a21b-4976-8eaf-7eece1195867.png)
